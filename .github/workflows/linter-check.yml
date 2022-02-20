@@ -4,5 +4,11 @@ jobs:
   linter-check:
     runs-on: ubuntu-latest
     steps:
-      - name: run-linter
-        run: make lint
+      - uses: actions/checkout@v2
+      - name: actions/setup-python@v2
+      - name: install1
+        run: pip install poetry 
+      - name: install2
+        run: make install 
+      - name: run-linter 
+        run: make lint 
