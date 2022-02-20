@@ -10,6 +10,8 @@ jobs:
       - name: install1
         run: pip install poetry 
       - name: install2
-        run: make install 
+        run: make install
+      - name: install
+        run: pip install flake8
       - name: run-linter 
         run: make lint 
