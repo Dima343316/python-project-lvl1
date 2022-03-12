@@ -14,7 +14,7 @@ prompt-toolkit = "^3.0.28"
 
 [tool.poetry.scripts]
 brain-games ="brain_games.scripts.BRAIN_GAMES:main"
-
+brain-even = "brain_games.scripts.brain_even:main"
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 
