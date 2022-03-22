@@ -19,6 +19,9 @@ https://asciinema.org/a/P6awdKDSNNLdT1YdvNCumuumq
 
 brain-calc - Калькулятор
 
+
+[![asciicast](https://asciinema.org/a/iEfjYKYuCT3BDoMjPYquUk1R2.svg)](https://asciinema.org/a/iEfjYKYuCT3BDoMjPYquUk1R2)
+
 brain-gcd - Наибольший общий делитель (НОД)
 
 brain-progression - Арифметическая прогрессия
