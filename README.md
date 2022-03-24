@@ -24,6 +24,12 @@ brain-calc - Калькулятор
 
 brain-gcd - Наибольший общий делитель (НОД)
 
+
+[![asciicast](https://asciinema.org/a/KqAVQjPbR71fZdBeGhuKD0zsG.svg)](https://asciinema.org/a/KqAVQjPbR71fZdBeGhuKD0zsG)
+
+
+
 brain-progression - Арифметическая прогрессия
+
 
 brain-prime - Простое ли число?
