@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 install:#Обновление
 	poetry install
 brain-games:#запуск скрипта

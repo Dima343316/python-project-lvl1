@@ -13,8 +13,11 @@ prompt = "^0.4.1"
 prompt-toolkit = "^3.0.28"
 
 [tool.poetry.scripts]
-brain-games ="brain_games.scripts.BRAIN_GAMES:main"
-brain-even = "brain_games.scripts.brain_even:main"
+brain-games ="brain_games.game.BRAIN_GAMES:main"
+brain-even = "brain_games.scripts.brain_even1:main"
+brain-calc = "brain_games.scripts.brain_calc1:main"
+brain-gdc = "brain_games.scripts.brain_gcd1:main"
+brain-progression = "brain_games.scripts.brain_progression1:main"
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 
