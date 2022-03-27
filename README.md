@@ -31,5 +31,6 @@ brain-gcd - Наибольший общий делитель (НОД)
 
 brain-progression - Арифметическая прогрессия
 
+[![asciicast](https://asciinema.org/a/UCkTh1BDdbPIzY6Cm05f2uZSR.svg)](https://asciinema.org/a/UCkTh1BDdbPIzY6Cm05f2uZSR)
 
 brain-prime - Простое ли число?
