@@ -5,7 +5,8 @@ def welcome_user():
     print('Welcome to the Brain Games!')
     global name
     name = prompt('May I have your name?:')
-    print('Hello ,',name + '!')
+    print('Hello ,', name + '!')
+
 
 welcome_user()
 
