@@ -13,8 +13,8 @@ brain-games
 
 Проверка на чётность
 brain-even
-[![asciicast](https://asciinema.org/a/8cZlGsVZQJcbA8BOOAjIPoAGm.svg)](https://asciinema.org/a/8cZlGsVZQJcbA8BOOAjIPoAGm)
-https://asciinema.org/a/P6awdKDSNNLdT1YdvNCumuumq
+
+[![asciicast](https://asciinema.org/a/e1A9zRp5SvkTOREeLA50dJ0g2.svg)](https://asciinema.org/a/e1A9zRp5SvkTOREeLA50dJ0g2)
  
 
 brain-calc - Калькулятор
@@ -34,3 +34,6 @@ brain-progression - Арифметическая прогрессия
 [![asciicast](https://asciinema.org/a/UCkTh1BDdbPIzY6Cm05f2uZSR.svg)](https://asciinema.org/a/UCkTh1BDdbPIzY6Cm05f2uZSR)
 
 brain-prime - Простое ли число?
+
+
+[![asciicast](https://asciinema.org/a/Djh8PMapFcIuOr9NhJFdluw4F.svg)](https://asciinema.org/a/Djh8PMapFcIuOr9NhJFdluw4F)

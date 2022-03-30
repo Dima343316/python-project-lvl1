@@ -23,11 +23,15 @@ def even_1():
     print(number)
     vvod = input('Your answer: ')
     proverka = even(random_number)
-    if float(random_number) % 2 == 0 and vvod == 'yes' or float(random_number) % 2 != 0 and vvod == 'no':
+    if float(random_number)\
+            % 2 == 0 and vvod == 'yes' or float(random_number)\
+            % 2 != 0 and vvod == 'no':
         print('Correct!')
         return even_3()
     else:
-        print((f"'{vvod}'") + " is wrong answer ;(. Correct answer was " + str(proverka))
+        print((f"'{vvod}'")
+              + " is wrong answer ;(. Correct answer was "
+              + str(proverka))
         return even_2()
 
 
@@ -37,11 +41,15 @@ def even_5():
     print(number)
     vvod = input('Your answer: ')
     proverka = even(random_number)
-    if float(random_number) % 2 == 0 and vvod == 'yes' or float(random_number) % 2 != 0 and vvod == 'no':
+    if float(random_number)\
+            % 2 == 0 and vvod == 'yes' or float(random_number)\
+            % 2 != 0 and vvod == 'no':
         print('Correct!')
         return even_1()
     else:
-        print((f"'{vvod}'") + " is wrong answer ;(. Correct answer was " + str(proverka))
+        print((f"'{vvod}'")
+              + " is wrong answer ;(. Correct answer was "
+              + str(proverka))
         return even_2()
 
 
@@ -56,11 +64,16 @@ def even_numbers():
     print(number)
     vvod = input('Your answer: ')
     proverka = even(random_number)
-    if float(random_number) % 2 == 0 and vvod == 'yes' or float(random_number) % 2 != 0 and vvod == 'no':
+    if float(random_number)\
+            % 2 == 0 and vvod == 'yes' or float(random_number)\
+            % 2 != 0 and vvod == 'no':
         print('Correct!')
         return even_5()
     else:
-        print((f"'{vvod}'") + " is wrong answer ;(. Correct answer was " + str(proverka))
+        print((f"'{vvod}'")
+              + " is wrong answer ;(. Correct answer was "
+              + str(proverka))
         return even_2()
+
 
 print(even_numbers())

@@ -19,6 +19,10 @@ brain-calc = "brain_games.scripts.brain_calc1:main"
 brain-gdc = "brain_games.scripts.brain_gcd1:main"
 brain-progression = "brain_games.scripts.brain_progression1:main"
 brain-prime = "brain_games.scripts.brain_prime1:main"
+
+[tool.poetry.urls]
+"brain-games" = "https://github.com/Dima343316/python-project-lvl1"
+
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 
