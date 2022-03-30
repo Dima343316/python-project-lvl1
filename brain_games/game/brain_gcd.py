@@ -24,8 +24,8 @@ def gcd_3():
         print('Correct!')
         return even_3()
     else:
-        print((str(answer) + " is wrong answer ;(.
-            Correct answer was " + str(divider)))
+        print((str(answer) + "is wrong answer ;(."
+                             "Correct answer was " + str(divider)))
         return even_2()
 
 
