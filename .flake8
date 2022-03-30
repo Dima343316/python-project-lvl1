@@ -1,13 +1,13 @@
 [flake8]
 accept-encodings = utf-8
 max-complexity = 6
-statistics = False 
+statistics = False
 max-line-length = 80
 doctests = True
 enable-extensions = G
 isort-show-traceback = True
 
-ignore = 
+ignore =
 
 per-file-ignores =
 hexlet_python_package/scripts/*.py: WPS421

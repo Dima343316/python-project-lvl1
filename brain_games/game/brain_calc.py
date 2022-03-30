@@ -30,9 +30,8 @@ def calc_3():
         print('Correct!')
         return even_3()
     else:
-        print((str(ans)
-               + "is wrong answer ;(. Correct answer was" +
-               str(cal)))
+        print((str(ans) + "is wrong answer ;(. "
+                          "Correct answer was" + str(cal)))
         return even_2()
 
 
@@ -55,9 +54,8 @@ def calc_2():
         print('Correct!')
         return calc_3()
     else:
-        print((str(ans)
-               + "is wrong answer ;(. Correct answer was"
-               + str(cal)))
+        print((str(ans) + "is wrong answer "
+                          ";(. Correct answer was" + str(cal)))
         return even_2()
 
 
@@ -85,9 +83,8 @@ def calc_1():
         print('Correct!')
         return calc_2()
     else:
-        print((str(ans)
-               + "is wrong answer ;(. Correct answer was"
-               + str(cal)))
+        print((str(ans) + "is wrong answer ;(."
+                          " Correct answer was" + str(cal)))
         return even_2()
 
 

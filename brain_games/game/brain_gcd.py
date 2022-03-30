@@ -24,9 +24,8 @@ def gcd_3():
         print('Correct!')
         return even_3()
     else:
-        print((str(answer)
-               + " is wrong answer ;(. Correct answer was "
-               + str(divider)))
+        print((str(answer) + "is wrong answer ;(."
+                             " Correct answer was" + str(divider)))
         return even_2()
 
 
@@ -43,9 +42,8 @@ def gcd_2():
         print('Correct!')
         return gcd_3()
     else:
-        print((str(answer)
-               + " is wrong answer ;(. Correct answer was "
-               + str(divider)))
+        print((str(answer) + " is wrong answer ;(."
+                             " Correct answer was " + str(divider)))
         return even_2()
 
 
@@ -67,9 +65,8 @@ def gcd_1():
         print('Correct!')
         return gcd_2()
     else:
-        print(str(answer)
-              + " is wrong answer ;(. Correct answer was "
-              + str(divider))
+        print(str(answer) + " is wrong answer ;(."
+                            " Correct answer was " + str(divider))
         return even_2()
 
 

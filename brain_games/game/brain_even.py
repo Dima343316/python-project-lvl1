@@ -29,9 +29,8 @@ def even_1():
         print('Correct!')
         return even_3()
     else:
-        print((f"'{vvod}'")
-              + " is wrong answer ;(. Correct answer was "
-              + str(proverka))
+        print((f"'{vvod}'") + " is wrong answer ;(."
+                              " Correct answer was " + str(proverka))
         return even_2()
 
 
@@ -47,9 +46,8 @@ def even_5():
         print('Correct!')
         return even_1()
     else:
-        print((f"'{vvod}'")
-              + " is wrong answer ;(. Correct answer was "
-              + str(proverka))
+        print((f"'{vvod}'") + " is wrong answer ;(."
+                              " Correct answer was " + str(proverka))
         return even_2()
 
 
@@ -70,9 +68,8 @@ def even_numbers():
         print('Correct!')
         return even_5()
     else:
-        print((f"'{vvod}'")
-              + " is wrong answer ;(. Correct answer was "
-              + str(proverka))
+        print((f"'{vvod}'") + " is wrong answer ;(."
+                              " Correct answer was " + str(proverka))
         return even_2()
 
 
