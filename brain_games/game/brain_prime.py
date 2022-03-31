@@ -13,7 +13,7 @@ def even(number):
         return "'no'"
 
 
-def even_numbers():
+def even_numbers_11():
     print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name?: ')
@@ -38,4 +38,4 @@ def even_numbers():
         return even_3()
 
 
-print(even_numbers())
+print(even_numbers_11())
