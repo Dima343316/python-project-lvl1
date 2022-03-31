@@ -2,10 +2,6 @@ import random
 import prompt
 
 
-def even_2():
-    return "Let's try again, " + name + '!'
-
-
 def even_3():
     return "Congratulations, " + name + '!'
 
@@ -36,7 +32,8 @@ def even_numbers():
         else:
             print((f"'{vvod}'") + " is wrong answer ;(."
                               " Correct answer was " + str(proverka))
-            return even_2()
+            return "Let's try again, " + name + '!'
+            break
     else:
         return even_3()
 
