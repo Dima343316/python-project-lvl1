@@ -16,7 +16,7 @@ prompt-toolkit = "^3.0.28"
 brain-games ="brain_games.scripts.BRAIN_GAMES:main"
 brain-even = "brain_games.scripts.brain_even1:main"
 brain-calc = "brain_games.scripts.brain_calc1:main"
-brain-gdc = "brain_games.scripts.brain_gcd1:main"
+brain-gcd = "brain_games.scripts.brain_gcd1:main"
 brain-progression = "brain_games.scripts.brain_progression1:main"
 brain-prime = "brain_games.scripts.brain_prime1:main"
 
