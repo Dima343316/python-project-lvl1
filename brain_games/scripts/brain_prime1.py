@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-from brain_games.game.brain_prime import even_numbers_11
+from brain_games.game.brain_prime import start_prime
 
 
 def main():
     if __name__ == '__main__':
-        print(even_numbers_11())
+        print(start_prime())
         main()

@@ -2,40 +2,29 @@ import random
 import prompt
 
 
-def even_3():
-    return "Congratulations, " + name + '!'
-
-
-def even(number):
-    if number % 2 == 0:
-        return "'yes'"
-    elif number % 2 != 0:
-        return "'no'"
-
-
-def even_numbers_11():
-    print('Welcome to the Brain Games!')
-    global name
-    name = prompt.string('May I have your name?: ')
-    print('Hello,', name + '!')
+def start_prime():
+    print("Welcome to the Brain Games!")
+    name = prompt.string("May I have your name? ")
+    print(f"Hello, {name}!")
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for i in range(3):
-        random_number = random.randint(0, 101)
-        number = ("Question: " + str(random_number))
-        print(number)
-        vvod = input('Your answer: ')
-        proverka = even(random_number)
-        if float(random_number) % 2 == 0 and\
-            vvod == 'yes' or float(random_number) % 2 != 0 and\
-            vvod == 'no':
-            print('Correct!')
+        num = random.randint(2, 100)
+        flag = "yes"
+        print(f"Question: {num}")
+        ans = input("Your answer: ")
+        if num != 2:
+            for i in range(2, num):
+                if num % i == 0:
+                    flag = "no"
+                    break
+        if ans == flag:
+            print("Correct!")
         else:
-            print((f"'{vvod}'") + " is wrong answer ;(."
-                              " Correct answer was " + str(proverka))
-            return "Let's try again, " + name + '!'
+            print(f"'{ans}' is wrong answer ;(. Correct answer was '{flag}'.")
+            print(f"Let's try again, {name}!")
             break
     else:
-        return even_3()
+        print(f"Congratulations, {name}!")
 
 
-print(even_numbers_11())
+start_prime()
