@@ -25,12 +25,12 @@ def gcd_1():
         number = ("Question: " + str(random_num) + ' ' + str(random_number_1))
         print(number)
         answer = input('Your answer: ')
-        divider = gcd(random_num, random_number_1)
-        if str(answer) == str(divider):
+        divid = gcd(random_num, random_number_1)
+        if str(answer) == str(divid):
             print('Correct!')
         else:
             print((f"'{(answer)}'") + " is wrong answer ;(."
-                            " Correct answer was " + (f"'{(divider)}'"))
+                                      " Correct answer was " + (f"'{(divid)}'"))
             return even_2()
     else:
         return even_3()
