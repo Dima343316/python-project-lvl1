@@ -22,7 +22,7 @@ def even_numbers():
     global name
     name = prompt.string('May I have your name?: ')
     print('Hello,', name + '!')
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     for i in range(3):
         random_number = random.randint(0, 101)
         number = ("Question: " + str(random_number))
@@ -41,4 +41,4 @@ def even_numbers():
         return even_3()
 
 
-even_numbers()
+print(even_numbers())
