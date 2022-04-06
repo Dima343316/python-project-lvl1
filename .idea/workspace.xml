@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="181b9957-ca56-48f8-a4cd-e73d31aecfd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc_scr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even_scr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd_scr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression_scr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flake8" beforeDir="false" afterPath="$PROJECT_DIR$/.flake8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-project-lvl1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-project-lvl1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_calc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_even.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_gcd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_progression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/game/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/cli.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/BRAIN_GAMES.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/BRAIN_GAMES.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime1.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime_scr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
