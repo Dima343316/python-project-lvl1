@@ -14,11 +14,11 @@ prompt-toolkit = "^3.0.28"
 
 [tool.poetry.scripts]
 brain-games ="brain_games.scripts.BRAIN_GAMES:main"
-brain-even = "brain_games.scripts.brain_even1:main"
-brain-calc = "brain_games.scripts.brain_calc1:main"
-brain-gcd = "brain_games.scripts.brain_gcd1:main"
-brain-progression = "brain_games.scripts.brain_progression1:main"
-brain-prime = "brain_games.scripts.brain_prime1:main"
+brain-even = "brain_games.scripts.brain_even_scr:main"
+brain-calc = "brain_games.scripts.brain_calc_scr:main"
+brain-gcd = "brain_games.scripts.brain_gcd_scr:main"
+brain-progression = "brain_games.scripts.brain_progression_scr:main"
+brain-prime = "brain_games.scripts.brain_prime_scr:main"
 
 [tool.poetry.urls]
 "brain-games" = "https://github.com/Dima343316/python-project-lvl1"

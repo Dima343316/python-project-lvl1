@@ -2,14 +2,6 @@ import prompt
 import random
 
 
-def even_2():
-    return "Let's try again, " + name + '!'
-
-
-def even_3():
-    return "Congratulations, " + name + '!'
-
-
 def rand_ind(lst):
     return random.randint(0, len(lst) - 1)
 
@@ -39,9 +31,7 @@ def progress():
         else:
             print((f'"{(ans)}"') + " is wrong answer ;(."
                                    " Correct answer was " + (f'"{(que)}"'))
-            return even_2()
+            print(f"Let's try again, {name}!")
+            break
     else:
-        return even_3()
-
-
-print(progress())
+        print(f"Congratulations, {name}!")
