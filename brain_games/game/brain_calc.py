@@ -3,14 +3,6 @@ import random
 import prompt
 
 
-def even_2():
-    return "Let's try again, " + name + '!'
-
-
-def even_3():
-    return "Congratulations, " + name + '!'
-
-
 def calc_1():
     print('Welcome to the Brain Games!')
     global name
@@ -38,9 +30,7 @@ def calc_1():
             print((f"'{(ans)}'") + ' ' + 'is wrong answer ;(.'
                                          ' Correct answer'
                                          ' was' + ' ' + (f"'{(cal)}'"))
-            return even_2()
+            print(f"Let's try again, {name}!")
+            break
     else:
-        return even_3()
-
-
-print(calc_1())
+        print(f"Congratulations, {name}!")

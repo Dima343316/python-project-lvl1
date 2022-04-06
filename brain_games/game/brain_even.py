@@ -2,14 +2,6 @@ import random
 import prompt
 
 
-def even_2():
-    return "Let's try again, " + name + '!'
-
-
-def even_3():
-    return "Congratulations, " + name + '!'
-
-
 def even(number):
     if number % 2 == 0:
         return "'yes'"
@@ -17,7 +9,7 @@ def even(number):
         return "'no'"
 
 
-def even_numbers():
+def even_numbers_11():
     print('Welcome to the Brain Games!')
     global name
     name = prompt.string('May I have your name?: ')
@@ -36,9 +28,7 @@ def even_numbers():
         else:
             print((f"'{vvod}'") + " is wrong answer ;(."
                                   " Correct answer was " + str(proverka))
-            return even_2()
+            print(f"Let's try again, {name}!")
+            break
     else:
-        return even_3()
-
-
-print(even_numbers())
+        print(f"Congratulations, {name}!")
