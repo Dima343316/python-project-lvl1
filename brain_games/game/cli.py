@@ -7,6 +7,7 @@ def welcome_user():
     print('Hello,', name + '!')
     return name
 
+
 def quest(question):
     print('Question:', question)
     return input('Your answer: ')

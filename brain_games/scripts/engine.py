@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 from brain_games.game.cli import welcome_user, quest
+
+
 def run_game(game):
     user_name = welcome_user()
     print(game.DESCRIPTION)
@@ -16,4 +18,3 @@ def run_game(game):
             break
     else:
         print(f"Congratulations, {user_name}!")
-

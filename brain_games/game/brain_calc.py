@@ -13,7 +13,7 @@ def generate_param():
     sin = random.choice(signs)
     num = (str(random_num) + ' ' + sin + ' ' + str(random_1))
     funks = {'+': operator.add(random_num, random_1),
-            '-': operator.sub(random_num, random_1),
-            '*': operator.mul(random_num, random_1)}
+             '-': operator.sub(random_num, random_1),
+             '*': operator.mul(random_num, random_1)}
     answer = funks[sin]
     return num, str(answer)

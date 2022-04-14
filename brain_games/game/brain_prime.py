@@ -1,7 +1,8 @@
 import random
-import prompt
+
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(x):
     result = {True: 'yes', False: 'no'}
@@ -17,4 +18,3 @@ def generate_param():
         return str(num), 'yes'
     else:
         return str(num), 'no'
-

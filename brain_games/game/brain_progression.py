@@ -1,4 +1,3 @@
-import prompt
 import random
 
 
@@ -22,8 +21,3 @@ def generate_param():
     rn_1[rn_3] = ".."
     question = list_text(rn_1)
     return question, str(que)
-
-
-
-
-
