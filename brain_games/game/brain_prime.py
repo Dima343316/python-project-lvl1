@@ -17,4 +17,3 @@ def generate_param():
         return str(num), 'yes'
     else:
         return str(num), 'no'
-print(generate_param())
