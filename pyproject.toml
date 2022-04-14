@@ -13,7 +13,7 @@ prompt = "^0.4.1"
 prompt-toolkit = "^3.0.28"
 
 [tool.poetry.scripts]
-brain-games ="brain_games.scripts.BRAIN_GAMES:main"
+brain-games ="brain_games.scripts.brain_game:main"
 brain-even = "brain_games.scripts.brain_even_scr:main"
 brain-calc = "brain_games.scripts.brain_calc_scr:main"
 brain-gcd = "brain_games.scripts.brain_gcd_scr:main"

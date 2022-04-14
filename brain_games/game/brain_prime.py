@@ -1,6 +1,7 @@
 import random
 import prompt
 
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(x):
     result = {True: 'yes', False: 'no'}
@@ -10,21 +11,10 @@ def is_prime(x):
     return result[True]
 
 
-def start_prime():
-    print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    for i in range(3):
-        num = random.randint(2, 100)
-        print(f"Question: {num}")
-        ans = input("Your answer: ")
-        number = is_prime(num)
-        if number == ans:
-            print("Correct!")
-        else:
-            print(f"'{ans}' is wrong answer ;(. Correct answer was '{number}'.")
-            print(f"Let's try again, {name}!")
-            break
+def generate_param():
+    num = random.randint(2, 100)
+    if is_prime(num) is True:
+        return str(num), 'yes'
     else:
-        print(f"Congratulations, {name}!")
+        return str(num), 'no'
+

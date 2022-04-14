@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="181b9957-ca56-48f8-a4cd-e73d31aecfd4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/brain_games/scripts/brain_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brain_games/scripts/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brain_games/scripts/prov.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_even.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_even.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_gcd.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_gcd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_prime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/brain_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/brain_progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/game/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/game/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/BRAIN_GAMES.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_calc_scr.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_calc_scr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_even_scr.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_even_scr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_gcd_scr.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_gcd_scr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_prime_scr.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_prime_scr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brain_games/scripts/brain_progression_scr.py" beforeDir="false" afterPath="$PROJECT_DIR$/brain_games/scripts/brain_progression_scr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,31 +51,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/brain_games/scripts/brain_progression_scr.py" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RunManager">
-    <configuration name="BRAIN_GAMES" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="python-project-lvl1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brain_games/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brain_games/scripts/BRAIN_GAMES.py" />
-      <option name="PARAMETERS" value="$AffectedModuleNames$" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python-project-lvl1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +68,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="$AffectedModuleNames$" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="brain_progression_scr" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python-project-lvl1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/brain_games/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/brain_games/scripts/brain_progression_scr.py" />
       <option name="PARAMETERS" value="$AffectedModuleNames$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,5 +119,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/brain_games/game/brain_calc.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
