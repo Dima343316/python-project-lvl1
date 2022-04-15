@@ -1,12 +1,17 @@
 #!/usr/bin/env python
-from brain_games.game.cli import welcome_user, quest
+from brain_games.game.cli import welcome_user
+
+
+def quest(question):
+    print('Question:', question)
+    return input('Your answer: ')
 
 
 def run_game(game):
     user_name = welcome_user()
     print(game.DESCRIPTION)
     for i in range(3):
-        question, answer = game.generate_param()
+        question, answer = game.generate_round()
         user_answer = quest(question)
         if str(answer) == str(user_answer):
             print('Correct!')

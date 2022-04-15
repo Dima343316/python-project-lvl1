@@ -11,9 +11,9 @@ def is_prime(x):
     return True
 
 
-def generate_param():
-    num = random.randint(2, 100)
-    if is_prime(num) is True:
-        return str(num), 'yes'
+def generate_round():
+    first_random_num = random.randint(0, 101)
+    if is_prime(first_random_num) is True:
+        return str(first_random_num), 'yes'
     else:
-        return str(num), 'no'
+        return str(first_random_num), 'no'

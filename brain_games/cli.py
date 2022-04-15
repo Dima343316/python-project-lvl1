@@ -6,8 +6,3 @@ def welcome_user():
     name = prompt.string('May I have your name?: ')
     print('Hello,', name + '!')
     return name
-
-
-def quest(question):
-    print('Question:', question)
-    return input('Your answer: ')

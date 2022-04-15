@@ -1,23 +1,28 @@
-import random
+from random import randint
+
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-DESCRIPTION = "What number is missing in the progression?"
+def generate_progression(first_num, step, progression_length):
+    return [first_num + step * i for i in range(progression_length)]
 
 
-def rand_ind(lst):
-    return random.randint(0, len(lst) - 1)
+def generate_round():
+    min_possible_num = 1
+    max_possible_num = 99
+    max_step = 9
+    progression_length = 10
+    question = ''
 
+    first_num = randint(min_possible_num, max_possible_num)
+    step = randint(1, max_step)
+    hidden_index = randint(1, progression_length)
 
-def list_text(lst):
-    return(" ". join(map(str, lst)))
-
-
-def generate_param():
-    random_number = random.randint(0, 10)
-    random_num = random.randint(15, 20)
-    rn_1 = list(range(random_number, random_num))
-    rn_3 = rand_ind(rn_1)
-    que = str(rn_1[rn_3])
-    rn_1[rn_3] = ".."
-    question = list_text(rn_1)
-    return question, str(que)
+    progression = generate_progression(first_num, step, progression_length)
+    for i in range(len(progression)):
+        if i == hidden_index - 1:
+            question += '.. '
+            result = str(progression[i])
+        else:
+            question += str(progression[i]) + ' '
+    return question, result

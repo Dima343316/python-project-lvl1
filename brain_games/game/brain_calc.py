@@ -6,14 +6,14 @@ import random
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def generate_param():
-    random_num = (random.randint(0, 101))
-    random_1 = (random.randint(0, 101))
+def generate_round():
+    first_ran_num = (random.randint(0, 101))
+    second_ran_num = (random.randint(0, 101))
     signs = ['-', '*', '+']
-    sin = random.choice(signs)
-    num = (str(random_num) + ' ' + sin + ' ' + str(random_1))
-    funks = {'+': operator.add(random_num, random_1),
-             '-': operator.sub(random_num, random_1),
-             '*': operator.mul(random_num, random_1)}
-    answer = funks[sin]
-    return num, str(answer)
+    sign = random.choice(signs)
+    expression = (str(first_ran_num) + ' ' + sign + ' ' + str(second_ran_num))
+    operations = {'+': operator.add(first_ran_num, second_ran_num),
+                  '-': operator.sub(first_ran_num, second_ran_num),
+                  '*': operator.mul(first_ran_num, second_ran_num)}
+    answer = operations[sign]
+    return expression, str(answer)
