@@ -14,11 +14,11 @@ def generate_round():
     progression_length = 10
     question = ''
 
-    first_num = randint(min_possible_num, max_possible_num)
+    first_number = randint(min_possible_num, max_possible_num)
     step = randint(1, max_step)
     hidden_index = randint(1, progression_length)
 
-    progression = generate_progression(first_num, step, progression_length)
+    progression = generate_progression(first_number, step, progression_length)
     for i in range(len(progression)):
         if i == hidden_index - 1:
             question += '.. '

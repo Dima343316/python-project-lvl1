@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import operator
+from random import randint
 import random
 
 
@@ -7,13 +8,15 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def generate_round():
-    first_ran_num = (random.randint(0, 101))
-    second_ran_num = (random.randint(0, 101))
+    min_possible_num = 1
+    max_possible_num = 99
+    first_number = randint(min_possible_num, max_possible_num)
+    second_number = randint(min_possible_num, max_possible_num)
     signs = ['-', '*', '+']
     sign = random.choice(signs)
-    expression = (str(first_ran_num) + ' ' + sign + ' ' + str(second_ran_num))
-    operations = {'+': operator.add(first_ran_num, second_ran_num),
-                  '-': operator.sub(first_ran_num, second_ran_num),
-                  '*': operator.mul(first_ran_num, second_ran_num)}
+    expression = (str(first_number) + ' ' + sign + ' ' + str(second_number))
+    operations = {'+': operator.add(first_number, second_number),
+                  '-': operator.sub(first_number, second_number),
+                  '*': operator.mul(first_number, second_number)}
     answer = operations[sign]
     return expression, str(answer)

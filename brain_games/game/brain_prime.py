@@ -1,5 +1,4 @@
-import random
-
+from random import randint
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
@@ -12,8 +11,10 @@ def is_prime(x):
 
 
 def generate_round():
-    first_random_num = random.randint(0, 101)
-    if is_prime(first_random_num) is True:
-        return str(first_random_num), 'yes'
+    min_possible_num = 1
+    max_possible_num = 99
+    first_number = randint(min_possible_num, max_possible_num)
+    if is_prime(first_number) is True:
+        return str(first_number), 'yes'
     else:
-        return str(first_random_num), 'no'
+        return str(first_number), 'no'
