@@ -5,13 +5,13 @@ import random
 
 
 DESCRIPTION = 'What is the result of the expression?'
+min_possible_num = 1
+max_possible_num = 99
+first_number = randint(min_possible_num, max_possible_num)
+second_number = randint(min_possible_num, max_possible_num)
 
 
 def generate_round():
-    min_possible_num = 1
-    max_possible_num = 99
-    first_number = randint(min_possible_num, max_possible_num)
-    second_number = randint(min_possible_num, max_possible_num)
     signs = ['-', '*', '+']
     sign = random.choice(signs)
     expression = (str(first_number) + ' ' + sign + ' ' + str(second_number))
