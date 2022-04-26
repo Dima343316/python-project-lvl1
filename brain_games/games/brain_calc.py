@@ -15,9 +15,9 @@ def calc(num1, num2, operation):
 
 
 def generate_round():
-    first_number = randint(MIN_POSSIBLE_NUM, MAX_POSSIBLE_NUM)
-    second_number = randint(MIN_POSSIBLE_NUM, MAX_POSSIBLE_NUM)
+    first_num= randint(MIN_POSSIBLE_NUM, MAX_POSSIBLE_NUM)
+    second_num = randint(MIN_POSSIBLE_NUM, MAX_POSSIBLE_NUM)
     operation = choice(list(OPERATORS.keys()))
-    question = str(first_number) + ' ' + str(operation) + ' ' + str(second_number)
-    right_answer = calc(first_number, second_number, operation)
+    question = str(first_num) + ' ' + str(operation) + ' ' + str(second_num)
+    right_answer = calc(first_num, second_num, operation)
     return question, str(right_answer)
